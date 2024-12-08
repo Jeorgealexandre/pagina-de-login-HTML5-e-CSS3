@@ -1,0 +1,75 @@
+
+
+.formlogin { width: 250px;
+    margin: 50px auto 0;
+    font-family: sans-serif;
+
+}
+
+.formlogin label{
+
+    margin-top: 15px;
+    display: block;
+}
+
+.formlogin fieldset{
+
+background: wheat;
+border-radius: 25px;
+
+
+}
+
+
+#user, #pass, .btn{
+
+display: block;
+width: 100%;
+box-sizing: border-box;
+padding: 10px;
+font-size: 18px;
+border: none;
+}
+
+.btn{margin-top: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+
+#user:focus, #pass:focus{
+background: rgb(232, 221, 221);
+
+}
+
+.formlogin legend{ 
+
+background: wheat;
+display: inline-block;
+padding: 10px;
+margin-left: 50%;
+margin-right: 50%;
+border-radius: 25px;
+  }
+
+  .login{
+    
+    width: 70%; 
+    margin-left: 41%;
+    margin-top: 1px;
+    position: absolute;
+    font-family: sans-serif; 
+    font-size: 40px;
+   
+}
+
+div{  display: flex;
+    align-items: center;
+    justify-content: space-between;}
+
+
+    .center{margin-top: 50px;
+
+
+    }
